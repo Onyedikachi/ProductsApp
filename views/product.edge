@@ -1,0 +1,27 @@
+@layout('layouts.app')
+
+@section('content')
+<!-- Page Header -->
+  <!-- Post Content -->
+  <div style="margin-top: 100px;">
+    <div class="container">
+      <div class="row">
+        <div class="offset-md-1 ffset-lg-1 col-lg-7 col-md-7"> 
+          <img class="pull-right" src="{{product.image}}" alt="product image" style="width:100%">
+        </div>
+        <div class="col-lg-3 col-md-3">
+           <div class="pull-left">
+              <div><span>Description: </span> {{product.description}} </div>
+              <div class=""><span>Color: </span>{{product.color}}</div>
+              <div class=""><span>Price: $</span>{{product.price}}</div>
+              <div class=""><span>Category: </span>{{product.category}}</div>
+           </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+@endsection
