@@ -6,7 +6,7 @@ const db  =  require("./config/db");
 const path = require('path');
 const Product =  require('./models/Product');
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 monogoose.connect(db.url, { useNewUrlParser: true });
 
