@@ -1,0 +1,21 @@
+{
+  "name": "ProductsApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-edge": "^1.0.0",
+    "express-fileupload": "^1.1.1-alpha.3",
+    "mongoose": "^5.4.15",
+    "nodemon": "^1.18.10"
+  }
+}
